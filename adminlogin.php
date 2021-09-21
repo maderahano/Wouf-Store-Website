@@ -11,7 +11,6 @@
         $admin_password = $_POST['admin_password'];
         $check_admin = "SELECT * FROM admin WHERE admin_username='$admin_username' AND admin_password='$admin_password'";
         $i = 0;
-sdsafsadfasdfsafasdfsadf
 
         $stid = oci_parse($dbcon, $check_admin);
         oci_execute($stid);
